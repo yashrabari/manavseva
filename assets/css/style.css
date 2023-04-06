@@ -871,7 +871,7 @@ li {
   position: relative;
   display: block;
   float: right;
-  margin-right: 30px;
+  margin-right: 10px;
   padding: 33px 0;
 }
 
@@ -1074,7 +1074,7 @@ li {
   .main-nav__navigation-box
   > li
   + li {
-  margin-left: 59px;
+  margin-left: 30px;
 }
 
 .main-nav__header-two .main-nav__right_one {
@@ -3808,6 +3808,9 @@ li {
   background-size: cover;
   overflow: hidden;
   margin-top: -160px;
+}
+.you-can-help1 {
+  margin-top: 0;
 }
 
 .you-can-help-img {
@@ -7698,4 +7701,8 @@ input#switch-id {
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.logo-two a img {
+  width: 150px;
 }
