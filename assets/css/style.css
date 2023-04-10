@@ -7706,3 +7706,45 @@ input#switch-id {
 .logo-two a img {
   width: 150px;
 }
+
+
+.nav-pills-custom .nav-link {
+  color: #fff;
+  background: #2d2734;
+  position: relative;
+  border-bottom: 1px solid #757575;
+  border-radius: 0 !important;
+}
+.bg-black {
+  background: #2d2734;
+}
+.bs-row {
+  box-shadow: 1.5px 2.6px 10px rgba(119, 119, 119, 0.1);
+  height: 600px;
+}
+
+.nav-pills-custom .nav-link.active {
+  color: #ff6d12;
+  background: #2d2734;
+}
+
+.user_icon {
+  background: #ff6d12;
+  color: #fff;
+  padding: 8px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.fs-4 {
+  font-size: 22px;
+  line-height: 18px;
+}
+tr td {
+  white-space: nowrap;
+}
+
+@media (max-width: 767px) {
+  .bs-row {
+    height: 100%;
+  }
+}
